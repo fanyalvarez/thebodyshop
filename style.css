@@ -1,0 +1,121 @@
+.body {
+  background-color: rgb(189, 195, 195);
+}
+
+nav {
+  background: url(https://img.freepik.com/vector-gratis/fondo-hojas-verdes-tropicales_52683-36494.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 5%;
+}
+nav img {
+  width: 8rem;
+}
+nav .nav-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: azure;
+}
+nav .nav-item a:hover {
+  color: green;
+  background-color: azure;
+}
+nav .dropdown-menu {
+  text-decoration: none;
+  color: green;
+  background-color: #175252;
+}
+nav .icons {
+  font-size: 25px;
+  color: azure;
+}
+nav .icons i {
+  margin-left: 15px;
+}
+
+#home img {
+  width: 100%;
+}
+
+#home-slide {
+  margin: 0 5%;
+  font-size: 20px;
+}
+#home-slide .carousel-inner {
+  padding: 3rem;
+}
+#home-slide .cards-wrapper {
+  display: flex;
+  align-items: center;
+}
+#home-slide .cards-wrapper .card {
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+#home-slide .carousel-control-prev,
+#home-slide .carousel-control-next {
+  width: 6vh;
+  height: 6vh;
+  background-color: rgb(244, 231, 215);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#home-slide .carousel-control-prev span,
+#home-slide .carousel-control-next span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#home-products {
+  margin: 5%;
+}
+#home-products .row {
+  margin-bottom: 5%;
+}
+#home-products .row .card {
+  border: none;
+}
+#home-products .row .card p {
+  color: #175252;
+  font-weight: 600;
+}
+#home-products .row .card img {
+  width: 100%;
+  height: 280px;
+  border-radius: 5%;
+}
+
+#home-mission {
+  width: 100%;
+  padding: 0 10%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#home-mission .homeMis-img img {
+  width: 500px;
+}
+#home-mission .homeMis-text {
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+#home-mission button {
+  margin-bottom: 10%;
+  color: #175252;
+  background-color: transparent;
+  border: solid 2px #175252;
+  border-radius: 8%;
+}
+#home-mission button:hover {
+  background-color: #175252;
+  color: azure;
+}/*# sourceMappingURL=style.css.map */
