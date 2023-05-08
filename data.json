@@ -1,0 +1,516 @@
+[
+  {
+    "id": 1,
+    "title": "Acondicionador de Plátano",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_AcondicionadorPlatano_250ml_Haircare_360x.jpg?v=1670537833",
+    "price": 110.0,
+    "review": 5,
+    "category": "cabello"
+  },
+  {
+    "id": 2,
+    "title": "Shampoo de Plátano",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Shampoo_Platano_250_ml_360x.jpg?v=1679537810",
+    "price": 110.0,
+    "review": 4,
+    "category": "cabello"
+  },
+  {
+    "id": 3,
+    "title": "Mascarilla Nutritiva de Plátano",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_MascarillaCapilarPlatano_240ml_Haircare_360x.jpg?v=1670956529",
+    "price": 415.0,
+    "review": 4,
+    "category": "cabello"
+  },
+  {
+    "id": 4,
+    "title": "Sérum para el Cabello Semilla de Uva",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_SerumUva_75ml_Haircare_360x.jpg?v=1670957107",
+    "price": 245.0,
+    "review": 3,
+    "category": "cabello"
+  },
+  {
+    "id": 5,
+    "title": "Sérum para Cuero Cabelludo de Jengibre",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_SerumJengibre_50ml_Haircare_360x.jpg?v=1670957414",
+    "price": 445.0,
+    "review": 5,
+    "category": "cabello"
+  },
+  {
+    "id": 6,
+    "title": "Hair and Body Mist de Pimienta Rosa y Lichi",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Hair__Body_Mist_de_Pimienta_Rosa_y_Lichi_360x.jpg?v=1678992127",
+    "price": 355.0,
+    "review": 5,
+    "category": "cabello"
+  },
+  {
+    "id": 7,
+    "title": "Toalla para Cabello de Bambú",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Toalla_para_Cabello_de_Bambu_360x.jpg?v=1678826856",
+    "price": 155.0,
+    "review": 4,
+    "category": "cabello"
+  },
+  {
+    "id": 8,
+    "title": "Cepillo Ovalado de Bambú",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_CepilloOvaladoBamboo_Accesorios_360x.jpg?v=1667261006",
+    "price": 265.0,
+    "review": 5,
+    "category": "cabello"  },
+
+  {
+    "id": "9",
+    "title": "Exfoliante Corporal de Aguacate",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Exfoliante_Corporal_Aguacate_250ml_360x.jpg?v=1679962006",
+    "price": "165.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "10",
+    "title": "Exfoliante de British Rose",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_ExfolianteDeDuchaBritishRose_200ml_BathAndBody_360x.jpg?v=1666120476",
+    "price": "375.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "11",
+    "title": "Desodorante Suave de Aloe Roll-On",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_desodoranteAloe_50ml_Skincare_360x.jpg?v=1668059351",
+    "price": "125.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "12",
+    "title": "Loción Corporal Flora Almizcle Blanco 250 ml",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_LocionCorporalWhiteMuskFlora_250ml_Fragancias_360x.jpg?v=1672098516",
+    "price": "315.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "13",
+    "title": "Loción Corporal Olive",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Locion_Corporal_Olive_360x.jpg?v=1679002601",
+    "price": "285.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "14",
+    "title": "Gel de Ducha White Musk® Flora",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Geldeducha_White-Musk_flora_360x.jpg?v=1677223197",
+    "price": "255.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "15",
+    "title": "Gel de Ducha White Musk Sport",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_JabonParaCabelloyCuerpoWhiteMuskSport_200ml_Fragancias_360x.jpg?v=1679937815",
+    "price": "255.00",
+    "review": "5",
+    "category": "cuerpo"
+  },
+  {
+    "id": "16",
+    "title": "Jabon en Barra de British Rose",
+    "img_url": "https://cdn.shopify.com/s/files/1/0293/9240/4554/products/TBS_JabonBritishRose_100g_BathAndBody_360x.jpg?v=1671840572",
+    "price": "105",
+    "review": "5",
+    "category": "cuerpo"  },
+
+  {
+    "id": "17",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "18",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "19",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "20",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "21",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "22",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "23",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "24",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "fragancias"
+  },
+  {
+    "id": "17",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "18",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "19",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "20",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "21",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "22",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "23",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"
+  },
+  {
+    "id": "24",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "lineas"},
+  {
+    "id": "17",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "18",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "19",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "20",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "21",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "22",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "23",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  },
+  {
+    "id": "24",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "manos"
+  }
+
+  {
+    "id": "17",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "18",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "19",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "20",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "21",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "22",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "23",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+  {
+    "id": "24",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "maquillaje"
+  },
+
+  {
+    "id": "17",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "18",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "19",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "20",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "21",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "22",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "23",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+  {
+    "id": "24",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "regalos"
+  },
+
+  {
+    "id": "17",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "18",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "19",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "20",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "21",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "22",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "23",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  },
+  {
+    "id": "24",
+    "title": "",
+    "img_url": "",
+    "price": ".00",
+    "review": "5",
+    "category": "rostro"
+  }
+]

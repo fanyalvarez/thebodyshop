@@ -16,26 +16,24 @@
 
 <body>
 
-    <nav>
-        <div class="logo">
-            <img src="/img/logo withe.png" alt="">
-        </div>
+    <nav class="d-flex justify-content-between align-items-center">
+        <img src="/img/logo withe.png" alt="">
         <ul class="nav nav-underline">
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
                     aria-expanded="false">PRODUCTOS</a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">ROSTRO</a></li>
-                    <li><a class="dropdown-item" href="#">CABELLO</a></li>
-                    <li><a class="dropdown-item" href="#">CUERPO</a></li>
-                    <li><a class="dropdown-item" href="#">MANOS</a></li>
-                    <li><a class="dropdown-item" href="#">FRAGANCIAS</a></li>
-                    <li><a class="dropdown-item" href="#">LINEAS</a></li>
-                    <li><a class="dropdown-item" href="#">ACCESORIOS</a></li>
-                    <li><a class="dropdown-item" href="#">REGALOS</a></li>
+                    <li><a class="dropdown-item" href="/productos/cabello/index.html">CABELLO</a></li>
+                    <li><a class="dropdown-item" href="/productos/cabello/index.html">CUERPO</a></li>
+                    <li><a class="dropdown-item" href="/productos/fragancias/index.html">FRAGANCIAS</a></li>
+                    <li><a class="dropdown-item" href="/productos/lineas/index.html">LINEAS</a></li>
+                    <li><a class="dropdown-item" href="/productos/manos/index.html">MANOS</a></li>
+                    <li><a class="dropdown-item" href="/productos/maquillaje/index.html">MAQUILLAJE</a></li>
+                    <li><a class="dropdown-item" href="/productos/regalos/index.html">REGALOS</a></li>
+                    <li><a class="dropdown-item" href="/productos/rostro/index.html">ROSTRO</a></li>
                 </ul>
             </li>
             <li class="nav-item">
@@ -62,17 +60,10 @@
                 <div class="row row-cols-4">
                     <div class="col">
                         <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/HIDRATANTES_540x.png?v=1624398171"
-                                class="card-img-top" alt="">
-                            <div class="card-body">
-                                <p class="card-text">ROSTRO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/BANANA_TRULY_NOURISHING_HAIR_MASK_240ML_8_INRSLPS049_540x.png?v=1624996932"
-                                class="card-img-top" alt="">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/BANANA_TRULY_NOURISHING_HAIR_MASK_240ML_8_INRSLPS049_540x.png?v=1624996932"
+                                    class="card-img-top" alt="">
+                            </a>
                             <div class="card-body">
                                 <p class="card-text">CABELLO</p>
                             </div>
@@ -80,8 +71,10 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/COCONUT_NOURISHING_BODY_BUTTER_200ML_7_INRSLPS023_540x.jpg?v=1624480835"
-                                class="card-img-top" alt="">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/COCONUT_NOURISHING_BODY_BUTTER_200ML_7_INRSLPS023_540x.jpg?v=1624480835"
+                                    class="card-img-top" alt="">
+                            </a>
                             <div class="card-body">
                                 <p class="card-text">CUERPO</p>
                             </div>
@@ -89,10 +82,23 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://graziamagazine.com/es/wp-content/uploads/sites/12/2020/01/GRAZIA-tres-cremas-mano-invierno.jpeg"
-                                class="card-img-top" alt="">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/Captura_de_Pantalla_2021-05-21_a_la_s_0.02.56_540x.png?v=1624507989"
+                                    class="card-img-top" alt="">
+                            </a>
                             <div class="card-body">
-                                <p class="card-text">MANOS</p>
+                                <p class="card-text">FRAGANCIAS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/TBS_Edelweiss_HomeHero_540x.png?v=1663089151"
+                                    class="card-img-top" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">LINEAS</p>
                             </div>
                         </div>
                     </div>
@@ -102,26 +108,21 @@
                 <div class="row row-cols-4">
                     <div class="col">
                         <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/Captura_de_Pantalla_2021-05-21_a_la_s_0.02.56_540x.png?v=1624507989"
-                                class="card-img-top" alt="">
+                            <a href="">
+                                <img src="https://graziamagazine.com/es/wp-content/uploads/sites/12/2020/01/GRAZIA-tres-cremas-mano-invierno.jpeg"
+                                    class="card-img-top" alt="">
+                            </a>
                             <div class="card-body">
-                                <p class="card-text">FRAGANCIAS</p>
+                                <p class="card-text">MANOS</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/TBS_Edelweiss_HomeHero_540x.png?v=1663089151"
-                                class="card-img-top" alt="">
-                            <div class="card-body">
-                                <p class="card-text">LINEAS</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/MATTE_CLAY_SKIN_CLARIFYING_FOUNDATION_042_30ML_8_INRSDPS570_540x.png?v=1628137889"
-                                class="card-img-top" alt="">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/MATTE_CLAY_SKIN_CLARIFYING_FOUNDATION_042_30ML_8_INRSDPS570_540x.png?v=1628137889"
+                                    class="card-img-top" alt="">
+                            </a>
                             <div class="card-body">
                                 <p class="card-text">MAQUILLAJE</p>
                             </div>
@@ -129,15 +130,32 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/1097760_G2_SMALL_BRITISH_ROSE_AYR21_A0X_SILV_INECMPS247_540x.jpg?v=1628136967"
-                                class="card-img-top" alt="">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/1097760_G2_SMALL_BRITISH_ROSE_AYR21_A0X_SILV_INECMPS247_540x.jpg?v=1628136967"
+                                    class="card-img-top" alt="">
+                            </a>
                             <div class="card-body">
                                 <p class="card-text">REGALOS</p>
                             </div>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="card">
+                            <a href="">
+                                <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/files/HIDRATANTES_540x.png?v=1624398171"
+                                    class="card-img-top" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">ROSTRO</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section id="allProducts">
+            <p>Ver todos nuestros productos disponibles</p>
+            <a href="/index.html" class="btn btn-primary">Ver</a>
         </section>
         <section id="home-mission">
             <div class="homeMis-img">
@@ -153,7 +171,6 @@
                 <button class="position-absolute bottom-0 start-50 translate-middle-x">Informate</button>
             </div>
         </section>
-
         <section id="home-slide">
             <!-- data-bs-ride="carousel" -->
             <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
@@ -238,7 +255,7 @@
                                 <img src="https://cdn.shopify.com/s/files/1/0293/9240/4554/products/Manteca_Limpiadora_de_Manzanilla_76_gr_360x.jpg?v=1678831060"
                                     class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <p class="card-text">Manteca Limpiadora de Manzanilla</p>
+                                    <p class="card-text">Limpiador de Manzanilla</p>
                                     <p class="card-text">De $ 105.00</p>
                                 </div>
                             </div>
@@ -267,11 +284,73 @@
             </div>
 
         </section>
-
-        <section id="home-testim"></section>
+        <section id="home-testim">
+            <div class="homeTest-text">
+                <p>"Creo firmemente que una empresa puede ser divertida, se puede llevar con amor y puede tener un
+                    impacto positivo en el mundo de la sociedad" Anita Roddick, Fundadora de The Body Shop</p>
+                <button class="position-absolute bottom-0 start-50 translate-middle-x">Conocenos</button>
+            </div>
+            <div class="homeTest-img">
+                <img src="/img/homeAna.jpg" alt="" srcset="">
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="d-flex flex-column justify-content-center py-5">
+
+        <div class="footer-info d-flex justify-content-center">
+            <img src="/img/logo withe.png" alt="">
+            <div class="info d-flex justify-content-around">
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SUCURSALES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TERMINOS Y CONDICIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">POLITICAS DE PRIVACIDAD</a>
+                    </li>
+                </ul>
+                <div class="info-contact">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">CONVERSEMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LUNES A VIERNES <br> DE 10:00 A 18:00</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> +55 12345678 </a>
+                        </li>
+                    </ul>
+                    <div class="icons d-flex justify-content-around mt-3">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy d-flex justify-content-center align-items-center mt-5">
+            <i class="fa-regular fa-copyright me-3"></i>
+            <p class="m-0">2021 The Body Shop | Todos los Derechos Reservados</p>
+        </div>
 
     </footer>
 

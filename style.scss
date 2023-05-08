@@ -1,41 +1,7 @@
+@import url("/style/nav_footer.css");
+
 .body {
   background-color: rgb(189, 195, 195);
-}
-
-nav {
-  background: url(https://img.freepik.com/vector-gratis/fondo-hojas-verdes-tropicales_52683-36494.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3% 5%;
-
-  img {
-    width: 8rem;
-  }
-  .nav-item a {
-    text-decoration: none;
-    font-size: 20px;
-    color: azure;
-  }
-  .nav-item a:hover {
-    color: green;
-    background-color: azure;
-  }
-  .dropdown-menu {
-    text-decoration: none;
-    color: green;
-    background-color: #175252;
-  }
-
-  .icons {
-    font-size: 25px;
-    color: azure;
-    i {
-      margin-left: 15px;
-    }
-  }
 }
 
 #home {
@@ -80,7 +46,6 @@ nav {
     height: 1.5rem;
   }
 }
-
 #home-products {
   margin: 5%;
 
@@ -96,26 +61,82 @@ nav {
       }
       img {
         width: 100%;
-        height: 280px;
+        height: 230px;
         border-radius: 5%;
       }
     }
   }
 }
+#allProducts {
+  height: 130px;
+  background-color: #eac556;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+  p {
+    font-size: 24px;
+    color: #175252;
+  }
+  a {
+    background-color: #175252;
+    border: none;
+    padding: 5px 20px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+}
 #home-mission {
   width: 100%;
   padding: 0 10%;
-  margin-bottom: 3%;
+  margin: 5% 0;
   display: flex;
   justify-content: space-evenly;
 
   .homeMis-img img {
-    width: 500px;
+    width: 450px;
+    height: 450px;
   }
 
   .homeMis-text {
     width: 500px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    padding: 30px 0;
+  }
+
+  button {
+    margin-bottom: 10%;
+    color: #175252;
+    background-color: transparent;
+    border: solid 2px #175252;
+    border-radius: 5%;
+  }
+
+  button:hover {
+    background-color: #175252;
+    color: azure;
+  }
+}
+#home-testim {
+  width: 100%;
+  padding: 5% 15%;
+  margin: 3% 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .homeTest-img img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .homeTest-text {
+    width: 330px;
+    height: 350px;
     font-size: 20px;
     text-align: center;
     position: relative;
@@ -126,7 +147,7 @@ nav {
     color: #175252;
     background-color: transparent;
     border: solid 2px #175252;
-    border-radius: 8%;
+    border-radius: 5%;
   }
 
   button:hover {
