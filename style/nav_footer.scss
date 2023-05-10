@@ -1,11 +1,12 @@
 nav {
-    background: url(https://img.freepik.com/vector-gratis/fondo-hojas-verdes-tropicales_52683-36494.jpg);
+    background: url(/img/bg-nav.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 5%;
   
     img {
       width: 8rem;
+      background: transparent;
     }
     .nav-item a {
       text-decoration: none;
